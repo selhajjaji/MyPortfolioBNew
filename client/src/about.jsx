@@ -1,7 +1,4 @@
-import BBG from '../src/assets/BBG.jfif';
-import ux from '../src/assets/ux.png';
-import web from '../src/assets/web.png';
-import app from '../src/assets/app.png';
+import app from '../src/assets/developer.png';
 import hire from '../src/assets/hire.jpg';
 import { Link } from 'react-router-dom';
 import '../src/index.css'
@@ -10,32 +7,16 @@ export default function About() {
      return <>
      
      <section id="skill">
-         
-          <span className="skillTitle">What I do</span>
-          <span className="skillDesc">I am a skilled and passionate web designer with experience in creating visually appealing and user-friendly websites. I have a strong understanding of design and a keen eye for detail. I am proficient in HTML, CSS, and JavaScript, as well as design software such as Adobe Photoshop and illustrator.</span> 
-          <div className="skillBar">
-               <img src={ux} alt="UIDesign" className="skillBarImg" />
-               <div className="skillBarText">
-               <h2>UI/UX Design</h2>
-               <p>This is a demo text, you can write your own content here.</p>
-               </div>
-
-          </div>
-          
-          <div className="skillBar">
-               <img src={web} alt="WebDesign" className="skillBarImg" />
-               <div className="skillBarText">
-               <h2>Web Design</h2>
-               <p>This text can be changed while making production ready website.</p>
-               </div>
-
-          </div>
-
+    
           <div className="skillBar">
                <img src={app} alt="AppDesign" className="skillBarImg" />
                <div className="skillBarText">
-               <h2>App Design</h2>
-               <p>You can write text related to mobile app development.</p>
+               <h2>Backend developer</h2>
+               <p>My name is Sabra, and I hold a Bachelor’s degree in Mathematics and Computer Science, as well as a Master’s degree in Applied Computer Science. I have six years of experience as a software developer, primarily focusing on backend development and utilizing agile methodologies.</p>
+
+               <p> I began my career at Capgemini, where I worked for six months before moving to Cegedim Insurance Solutions. During my time there, I contributed to various projects, including third-party application maintenance for insurance software, primarily using C and PL/SQL. I also developed and maintained new functionalities and web applications for frontal services, employing technologies such as Java, Spring, Maven, and web services (both SOAP and REST) for five and a half years.</p>
+
+               <p>Currently, I am pursuing a program in artificial intelligence at Centennial College, driven by my strong interest in the field and its future potential.</p>
                </div>
 
           </div>

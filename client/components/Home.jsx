@@ -12,7 +12,7 @@ export default function Home() {
           <span className="introText">I am <span className="introName">Sabra Elhajjaji</span> 
           <img src={myPhoto} alt="profile" className="bbg" width="750" height="750" align="right" />
           <br/>Backend developer</span>
-          <p className="introPara">Six years of experience in software development with a focus on backend development</p>
+          <p className="introPara">Six years of experience in software development, with a focus on backend development</p>
           <p className="introPara">Bilingual competencies in French and English plus the Arabic mother tongue.</p>
 
           <Link><button className="btn"><img src={hire} alt="Hire me" width="100px" height="100px"/></button></Link>

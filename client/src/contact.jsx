@@ -20,9 +20,9 @@ export default function Contact() {
 					
 		
 		</form> <br></br>
-          <p><i>Call me on: <strong>888.555.5555 </strong></i></p>
- <p>facebook:www.xyz.facebook.com</p>
- <p>email:xyz@yahoo.com</p>
+          <p><i>Call me on: <strong>514.894.6231 </strong></i></p>
+ <p>https://www.linkedin.com/in/sabra-elhajjaji/</p>
+ <p>email:elh.sabra@gmail.com</p>
      </>
      );
      }
