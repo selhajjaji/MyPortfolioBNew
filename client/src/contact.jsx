@@ -15,6 +15,15 @@ export default function Contact() {
 				
 				<label htmlFor="myEmail"> *Email: </label>
 				<input type="email" id="myEmail" name="myEmail" required="required" /> <br /> <br />
+
+                    <label htmlFor="myMessage"> Message </label>
+                    <textarea 
+                    id="myMessage" 
+                    name="myMessage" 
+                    required 
+                    rows="5" // Adjust rows for height
+                    cols="30" // Adjust cols for width
+                /> <br /> <br />
 				
 				<input type="submit" className="submit" value="Submit" /> <br />
 					

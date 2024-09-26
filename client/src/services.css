@@ -1,0 +1,41 @@
+#services {
+    max-width: 1200px; 
+    margin: auto; 
+    padding: 20px;
+    text-align: center; 
+}
+
+.serviceList {
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+
+.service {
+    flex: 1 1 30%; 
+    margin: 20px; 
+    padding: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s; 
+}
+
+.service:hover {
+    transform: scale(1.05); 
+}
+
+.serviceImage {
+    width: 100px; 
+    height: auto; 
+}
+
+.contactCallToAction {
+    margin-top: 20px; 
+    font-size: 1.2em;
+}
+
+.contactCallToAction a {
+    color: #2980b9; 
+    text-decoration: none;
+}
