@@ -7,8 +7,24 @@
     align-items: center;
     justify-content: center;
     text-align:center;
-    margin: 0 auto;
+    float:left;
 }
+.resumeLink {
+    display: inline-block; /* Make it a block element */
+    margin-top: 20px; /* Space above the link */
+    padding: 10px 20px; /* Padding for the link */
+    background-color: #2980b9; /* Link color */
+    color: white; /* Text color */
+    text-decoration: none; /* No underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth color transition */
+}
+
+.resumeLink:hover {
+    background-color: #3498db; /* Lighter color on hover */
+}
+
+
 
 .skillTitle{
     margin: 1rem 0;

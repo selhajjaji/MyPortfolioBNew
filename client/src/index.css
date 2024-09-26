@@ -74,7 +74,26 @@ font-size:x-large;
 }
 
 
+.buttonContainer {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+ 
+}
 
+.aboutButton {
+  display: inline-block; 
+  padding: 10px 20px;
+  background-color: #2980b9; 
+  color: white;
+  text-decoration: none;
+  border-radius: 5px; 
+  transition: background-color 0.3s;
+}
+
+.aboutButton:hover {
+  background-color: #3498db; 
+}
 
 
 

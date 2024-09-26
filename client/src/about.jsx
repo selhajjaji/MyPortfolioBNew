@@ -1,14 +1,16 @@
 import app from '../src/assets/developer.png';
 import hire from '../src/assets/hire.jpg';
 import { Link } from 'react-router-dom';
+import myPhoto from '../src/assets/myPhoto.jpg';
+import resume from '../src/assets/resume.pdf';
 import '../src/index.css'
 import '../src/about.css'
 export default function About() {
      return <>
      
-     <section id="skill">
+     <section id="skill" >
     
-          <div className="skillBar">
+          <div className="skillBar"  >
                <img src={app} alt="AppDesign" className="skillBarImg" />
                <div className="skillBarText">
                <h2>Backend developer</h2>
@@ -19,11 +21,20 @@ export default function About() {
                <p>Currently, I am pursuing a program in artificial intelligence at Centennial College, driven by my strong interest in the field and its future potential.</p>
                </div>
 
-          </div>
-          
+          </div>          
                   
-     </section>
-    
+     </section>  
+     <img src={myPhoto} alt="profile" className="bbg" width="750" height="750" align="right" />
+        <section id="skill">
+        </section> 
+        <p>
+                You can view and download my resume using the link below:
+            </p>
+            <p>
+            <a href={resume} target="_blank" rel="noopener noreferrer" className="resumeLink">
+                Download My Resume
+            </a> 
+            </p>
 
      </>
     }
